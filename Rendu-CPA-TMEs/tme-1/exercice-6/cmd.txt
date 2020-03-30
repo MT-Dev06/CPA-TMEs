@@ -1,0 +1,4 @@
+javac -cp ../fastutil-8.2.1.jar *.java
+java -cp .:../fastutil-8.2.1.jar Exercice6 file.txt
+
+

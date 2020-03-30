@@ -1,0 +1,5 @@
+javac -cp ../fastutil-8.2.1.jar *.java
+java -cp .:../fastutil-8.2.1.jar AdjacencyList file.txt
+java -cp .:../fastutil-8.2.1.jar EdgesList file.txt
+java -cp .:../fastutil-8.2.1.jar AdjacencyMatrix file.txt lePlusGrandNode(son ID)
+

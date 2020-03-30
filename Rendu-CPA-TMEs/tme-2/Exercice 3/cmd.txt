@@ -1,0 +1,3 @@
+javac *.java
+java Exercice3 file.txt res.clu
+

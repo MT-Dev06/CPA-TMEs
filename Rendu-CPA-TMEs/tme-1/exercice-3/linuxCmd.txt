@@ -1,0 +1,1 @@
+sed '/^#/d' file.txt | awk '{if ($1 < $2) { print $1" "$2} else { if ($2 > $1) {print $2" "$1}}}' | sort -k1n -k2n -u > newFile.txt
